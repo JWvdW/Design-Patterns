@@ -10,10 +10,9 @@ public class Main {
         SpeelgoedFabriek speelgoedFabriek = new SpeelgoedFabriek();
 
         Speelgoed auto = speelgoedFabriek.geefSpeelgoed("Auto");
-
+        auto.produceer();
 
         Speelgoed trekker = speelgoedFabriek.geefSpeelgoed("Trekker");
-
-
+        trekker.produceer();
     }
 }
